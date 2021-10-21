@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-nav {
+    text-align: center;
+    margin: auto;
+}
+
+.navbar {
+    background: black;
+
+}
+
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+    border: 0;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+    box-shadow: none !important;
+
+}
+
+
+/*---------man----------------*/
+.active-home,
+.nav-link:hover {
+    background-color: #dc3545;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: .5s;
+}
+
+
+#div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div .h4 {
+    margin-right: 60px;
+
+}
+
+#portfolio .row img {
+    width: 270px;
+    height: 280px;
+}
+
+#portfolio .row .col-md-8 img {
+    width: 150px;
+    height: 160px;
+}
+
+
+#past p {
+    margin-right: 20px;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    #div .h4 {
+        display: none;
+    }
+
+    #portfolio .mb-5 {
+        margin-bottom: 10px !important;
+    }
+
+    #portfolio img {
+        margin-bottom: 15px;
+    }
+
+    #past p {
+        margin-left: 8px;
+    }
+
+    #rozvi input {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #div .h4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px){
+    #about {
+        display: block;
+    }
+}
